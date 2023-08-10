@@ -1,2 +1,2 @@
-# facebook.login-clone.github.io
+# facebook.login-clone
 Facebook login page
