@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.main .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/**************** Left side starts  😀 ****************/
+
+.left_side {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+    padding-left: -200px;
+   
+}
+
+
+.left_side .logo img {
+    margin-left: -160px;
+    height: 70px;
+}
+
+.left_side .tag_line {
+    margin-left: -60px;
+}
+
+.left_side .tag_line h1 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: -5px;
+}
+
+.left_side .tag_line p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+
+.left_side .active_account .box {
+    display: flex;
+
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+.left_side .active_account .box .active {
+    position: relative;
+    width: 160px;
+    height: 210px;
+    /* border: 2px solid cyan; */
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    transition: all 0.4s linear;
+}
+
+.left_side .active_account .box .active .notification { 
+    position: absolute;
+    top: -6px;
+    right: -2px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: red;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 13px;
+
+}
+
+.left_side .active_account .box .active img {
+    height: 160px;
+    width: 160px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+
+
+.left_side .active_account .box #active2 {
+    position: relative;
+    margin-left: 20px;
+
+}
+
+.left_side .active_account .box #active2 img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    color: #1877f2;
+    border-radius: 50%;
+}
+
+.left_side .active_account .box .active .name {
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+
+
+}
+
+.left_side .active_account .box .active #name2 {
+    margin-top: 173px;
+
+
+}
+
+.left_side .active_account .box .active #name2 a {
+    color: #1877f2;
+
+
+}
+
+.left_side .active_account .box .active:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+
+
+/**************** left side ends here 😃 ****************/
+
+
+
+
+
+/**************** Right side starts  😀 ****************/
+
+
+
+
+
+.right_side {
+    height: 100vh;
+    width: 50%;
+
+}
+
+.right_side .input-box {
+    width: 60%;
+    height: 370px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 140px auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+
+.right_side .input-box input {
+
+    padding: 0px 18px;
+    height: 14%;
+    width: 90%;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 0.25px solid #dad6d6;
+    outline: none;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    
+
+    font-size: 17px;
+    color: #707070;
+    text-align: left;
+}
+
+.right_side .input-box .btn {
+
+    padding: 15px 8px;
+    margin: 12px 0;
+    border-radius: 8px;
+    height: 14%;
+    width: 90%;
+    border: none;
+    font-size: 17px;
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+.right_side .input-box .btn a {
+    color: #fff;
+
+}
+
+.right_side .input-box .btn:hover {
+    background-color: #046df7;
+}
+
+
+.right_side .input-box .btn2 {
+
+    width: 60%;
+    padding: 15px 8px;
+    margin: 24px 0;
+    border-radius: 8px;
+    height: 14%;
+    border: none;
+    font-size: 16px;
+    background-color: #42b72a;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right_side .input-box .btn2:hover {
+    background-color: #2fad16;
+}
+
+.right_side .forget_opt {
+    color: #1877f2;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.right_side .forget_opt:hover {
+    text-decoration: underline;
+}
+
+.right_side .last_text {
+    text-align: center;
+    margin-top: -100px;
+}
+
+.right_side .last_text span:hover {
+    text-decoration: underline;
+}
+
+#hr-line {
+    border-bottom: 2px solid red;
+    z-index: 9999;
+}
+
+
+
+
+/**************** left side ends here 😃 ****************/
+
+
+
+
+/*************** responsive codes start here ▶ **************/
+
+
+
+
+@media (max-width:1120px) {
+    .right_side .input-box .btn2 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width:980px) {
+
+
+    .main .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -70px;
+    }
+
+
+    .left_side .logo img {
+        margin-left: 0;
+    }
+
+    .left_side .tag_line {
+        margin-left: 0x;
+    }
+
+    .left_side .tag_line h1 {
+        font-weight: 400;
+        font-size: 28px;
+        margin-top: -5px;
+        margin-left: 60px;
+    }
+
+    .left_side .tag_line p {
+        margin-top: 5px;
+        font-size: 16px;
+        margin-left: 60px;
+    }
+
+    .right_side {
+        width: 100%;
+    }
+
+    .right_side .input-box {
+        width: 65%;
+        margin-top: -150px;
+    }
+
+    .right_side .input-box .btn2 {
+        font-size: 18px;
+    }
+}
+
+
+
+
+@media (max-width:768px) {
+    .right_side .input-box .btn2 {
+        font-size: 14px;
+    }
+}
